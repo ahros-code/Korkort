@@ -1,13 +1,12 @@
-import Container from "../../components/Container/Container.jsx";
+// import Container from "../../components/Container/Container.jsx";
 import Hero from "../../sections/Hero/Hero.jsx";
+import Potential from "../../sections/Potential/Potential.jsx";
 
 const Home = () => {
   return (
     <div>
       <Hero />
-      <Container>
-        <div>home</div>
-      </Container>
+      <Potential />
     </div>
   );
 };

@@ -1,5 +1,7 @@
+import FooterComponent from "../../components/FooterComponent/FooterComponent.jsx";
+
 const Footer = () => {
-  return <div>footer</div>;
+  return <FooterComponent />;
 };
 
 export default Footer;

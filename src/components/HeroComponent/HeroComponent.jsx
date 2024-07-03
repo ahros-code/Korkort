@@ -13,7 +13,7 @@ const HeroComponent = () => {
       ></div>
       <Container>
         <div className="mb-[34.44px]">
-          <h1 className="text-[#000] text-center font-medium leading-[72px] text-[54px] mb-[24px]">
+          <h1 className="text-[#000] text-center font-medium leading-[52px] text-[44px] mb-[24px] md:text-[54px] md:leading-[72px]">
             Smart Crypto Management
           </h1>
           <p className="text-[#585858] max-w-[577px] text-center leading-[22.4px] text-[16px] mx-auto">

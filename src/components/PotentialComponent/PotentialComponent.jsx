@@ -10,130 +10,160 @@ const PotentialComponent = () => {
     <div className={"pb-[88px]"}>
       <h1
         className={
-          "text-[#000] text-center font-medium leading-[72px] text-[52.5px] max-w-[774.16px] mx-auto pt-[88px] pb-[60px]"
+          "text-center font-medium text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight max-w-screen-lg mx-auto pt-8 pb-6"
         }
       >
         Unleashing the Potential: ever- evolving world of crypto
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 h-[80vh] md:h-[100vh]">
-        <div className="grid grid-cols-2 grid-rows-4 gap-4">
-          <div className="col-span-2 row-span-2 border-solid border border-[#E7E7E7] rounded-[24px] shadow-md bg-white">
-            <img
-              src={firstColumnBigImage}
-              alt="image"
-              className={"h-[70%] rounded-[24px] mx-auto w-[100%]"}
-            />
-            <div className={"h-[30%] pl-[41px] pr-[59px] pb-[20px]"}>
-              <h3
-                className={
-                  "font-medium text-[19.77px] leading-[26.4px] mb-[7.54px]"
-                }
-              >
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-8 ">
+        <div className="grid grid-rows-2 space-y-4 md:space-y-8 ">
+          {/* 1 */}
+          <div
+            className="border  bg-white rounded-3xl shadow-md"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            <div className="rounded-3xl">
+              <img
+                src={firstColumnBigImage}
+                alt="image"
+                className="w-full rounded-[24px]"
+              />
+            </div>
+            <div className="space-y-2 px-5 md:px-10 pb-5">
+              <div className="text-base md:text-xl md:font-semibold">
                 AI Chatting like never before
-              </h3>
-              <p className={"text-[#585858] text-[16px] leading-[22.4px]"}>
+              </div>
+              <p className="text-sm md:text-base text-gray-600 ">
                 Lorem ipsum dolor sit amet consectetur. Molestie lorem arcu
                 egestas varius donec.
               </p>
             </div>
           </div>
-          <div className="row-span-2 row-start-3 border-solid border border-[#E7E7E7] rounded-[24px] shadow-md bg-white">
-            <img
-              src={firstColumnSmallImage1}
-              alt="image"
-              className={"h-[70%] rounded-[24px] mx-auto w-[100%]"}
-            />
-            <div className={"h-[30%] pl-[41px] pb-[48px]"}>
-              <h3
-                className={
-                  "font-medium text-[19.77px] leading-[26.4px] mb-[7.54px]"
-                }
-              >
-                Support Chat
-              </h3>
-              <p className={"text-[#585858] text-[16px] leading-[22.4px]"}>
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
+          {/* 2 */}
+          <div className="grid grid-cols-2  gap-4 md:gap-8">
+            {/* 2.1 */}
+            <div
+              className="border bg-white rounded-3xl shadow-md"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+            >
+              <div className=" overflow-hidden h-40 md:h-80">
+                <img
+                  src={firstColumnSmallImage1}
+                  alt="image"
+                  className="w-full h-full  object-contain rounded-[24px]"
+                />
+              </div>
+              <div className="space-y-2 px-5 pb-5">
+                <div className="text-base md:text-xl md:font-semibold">
+                  AI Chatting like never before
+                </div>
+                <p className="text-xs md:text-base text-gray-400 ">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="row-span-2 row-start-3 border-solid border border-[#E7E7E7] rounded-[24px] shadow-md bg-white">
-            <img
-              src={firstColumnSmallImage2}
-              alt="image"
-              className={"h-[70%] rounded-[24px] mx-auto w-[100%]"}
-            />
-            <div className={"h-[30%] pl-[41px] pb-[48px]"}>
-              <h3
-                className={
-                  "font-medium text-[19.77px] leading-[26.4px] mb-[7.54px]"
-                }
-              >
-                Integrations
-              </h3>
-              <p className={"text-[#585858] text-[16px] leading-[22.4px]"}>
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
+            {/* 2.2 */}
+            <div
+              className="border bg-white rounded-3xl shadow-md"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+            >
+              <div className=" overflow-hidden h-40 md:h-80">
+                <img
+                  src={firstColumnSmallImage2}
+                  alt="image"
+                  className="w-full h-full  object-contain rounded-[24px]"
+                />
+              </div>
+              <div className="space-y-2 px-5 pb-5">
+                <div className="text-base md:text-xl md:font-semibold">
+                  AI Chatting like never before
+                </div>
+                <p className="text-xs md:text-base text-gray-400 ">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="grid grid-cols-2 grid-rows-4 gap-4">
-          <div className="row-span-2 border border-[#E7E7E7] rounded-[24px] shadow-md border-solid bg-white">
-            <img
-              src={secondColumnSmallImage1}
-              alt="image"
-              className={"h-[70%] rounded-[24px] mx-auto w-[100%]"}
-            />
-            <div className={"h-[30%] pl-[41px] pb-[48px]"}>
-              <h3
-                className={
-                  "font-medium text-[19.77px] leading-[26.4px] mb-[7.54px]"
-                }
-              >
-                Receive
-              </h3>
-              <p className={"text-[#585858] text-[16px] leading-[22.4px]"}>
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
+        <div className="grid grid-rows-2 space-y-4 md:space-y-8">
+          {/* 2 */}
+          <div className="grid grid-cols-2  gap-4 md:gap-8">
+            {/* 2.1 */}
+            <div
+              className="border bg-white rounded-3xl shadow-md"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+            >
+              <div className=" overflow-hidden h-40 md:h-80">
+                <img
+                  src={secondColumnSmallImage1}
+                  alt="image"
+                  className="w-full h-full  object-contain rounded-[24px]"
+                />
+              </div>
+              <div className="space-y-2 px-5 pb-5">
+                <div className="text-base md:text-xl md:font-semibold">
+                  AI Chatting like never before
+                </div>
+                <p className="text-xs md:text-base text-gray-400 ">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+              </div>
+            </div>
+            {/* 2.2 */}
+            <div
+              className="border bg-white rounded-3xl shadow-md"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+            >
+              <div className=" overflow-hidden h-40 md:h-80">
+                <img
+                  src={secondColumnSmallImage2}
+                  alt="image"
+                  className="w-full h-full  object-contain rounded-[24px]"
+                />
+              </div>
+              <div className="space-y-2 px-5 pb-5">
+                <div className="text-base md:text-xl md:font-semibold">
+                  AI Chatting like never before
+                </div>
+                <p className="text-xs md:text-base text-gray-400 ">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+              </div>
             </div>
           </div>
-          <div className="col-span-2 row-span-2 col-start-1 row-start-3 border border-[#E7E7E7] rounded-[24px] shadow-md border-solid bg-[#0B0B16]">
-            <div className={"h-[30%] pl-[23px] pr-[77px] pt-[32px]"}>
-              <h3
-                className={
-                  "font-medium text-[16.45px] leading-[21.6px] mb-[7.85px] text-white"
-                }
-              >
-                Supercharge your money fast.
-              </h3>
-              <p className={"text-[#C0C0C0] text-[16px] leading-[22.4px]"}>
+          {/* 1 */}
+          <div
+            className=" border border-[#090B15] bg-[#090B15] rounded-3xl shadow-lg"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            <div className="space-y-2 px-5 md:px-10 pt-5 text-white">
+              <div className="text-base md:text-xl md:font-semibold ">
+                AI Chatting like never before
+              </div>
+              <p className="text-sm md:text-base text-gray-400 ">
                 Lorem ipsum dolor sit amet consectetur. Molestie lorem arcu
                 egestas varius donec.
               </p>
             </div>
-            <img
-              src={secondColumnBigImage}
-              alt="image"
-              className={"h-[70%] rounded-[24px] mx-auto w-[100%]"}
-            />
-          </div>
-          <div className="row-span-2 col-start-2 row-start-1 border border-[#E7E7E7] rounded-[24px] shadow-md border-solid bg-white">
-            <img
-              src={secondColumnSmallImage2}
-              alt="image"
-              className={"h-[70%] rounded-[24px] mx-auto w-[100%]"}
-            />
-            <div className={"h-[30%] pl-[41px] pb-[48px]"}>
-              <h3
-                className={
-                  "font-medium text-[19.77px] leading-[26.4px] mb-[7.54px]"
-                }
-              >
-                Card Support
-              </h3>
-              <p className={"text-[#585858] text-[16px] leading-[22.4px]"}>
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
+            <div className="rounded-3xl">
+              <img
+                src={secondColumnBigImage}
+                alt="image"
+                className="w-full rounded-[24px]"
+              />
             </div>
           </div>
         </div>
